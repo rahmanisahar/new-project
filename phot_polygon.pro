@@ -29,7 +29,7 @@ PRO phot_polygon, image_file, ds9reg,out
 
 
 image=mrdfits(image_file,0,hdr)
-
+image=double(image)
 
 ;IF n_elements(pix_size) EQ 0 THEN begin
 ;read,pixsize, prompt='Inter pixel size of the image:'
@@ -101,7 +101,8 @@ skip:
 ENDWHILE  ; end of main loop
 free_lun, ds9
 ;stop
-;print, phot
+;phot=double(phot)
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;calculate surface density
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -122,21 +123,21 @@ RAdeg=[10.64583333333333d,10.376708333333333d,11.345208333333332d,10.15570833333
 Decdeg=[41.35027777777778d,40.718833333333336d,41.64808333333333d,41.02483333333333d,41.11938888888889d,41.317527777777784d,41.3875d,40.98302777777778d,41.1215d,40.60563888888889d]
 ID=['Bulge','irc1','irc2','irc3','irc4','irac5','irc6','irc7','irc8','isocvf']
 
-   data = {Pub_ID:'', RAdeg:0.0, Decdeg:0.0,ID:'',area_arcsec_sq:0.0,SFR_HALPHA:0.0,SFR_HALPHA_per_arcsec_sq:0.0,SFR_HALPHA_per_pc_sq:0.0,SFR_HALPHA_per_kpc_sq:0.0}
+   data = {Pub_ID:'', RAdeg:0.0, Decdeg:0.0,ID:'',area_arcsec_sq:0.0d,IRAC4_lum:0.0d,IRAC4_lum_per_arcsec_sq:0.0d,IRAC4_lum_per_pc_sq:0.0d,IRAC4_lum_per_kpc_sq:0.0d}
    datas = replicate(data, n_elements(phot))
    datas.Pub_ID = pub_id
    datas.RAdeg = RAdeg
    datas.Decdeg = Decdeg
    datas.ID = ID
    datas.area_arcsec_sq= area_arcsec_sq
-   datas.SFR_HALPHA=phot
-   datas.SFR_HALPHA_per_arcsec_sq=phot_per_arcsec
-   datas.SFR_HALPHA_per_pc_sq=phot_per_pc_sq
-   datas.SFR_HALPHA_per_kpc_sq=phot_per_kpc_sq
+   datas.IRAC4_lum=phot
+   datas.IRAC4_lum_per_arcsec_sq=phot_per_arcsec
+   datas.IRAC4_lum_per_pc_sq=phot_per_pc_sq
+   datas.IRAC4_lum_per_kpc_sq=phot_per_kpc_sq
    
    mwrfits,datas, out+'.fits', /create
 
-
+;stop
 
 END
 

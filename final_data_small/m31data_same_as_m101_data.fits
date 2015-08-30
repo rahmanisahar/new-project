@@ -1,0 +1,120 @@
+SIMPLE  =                    T / Standard FITS format                           BITPIX  =                    8 / Character data                                 NAXIS   =                    1 / Text string                                    NAXIS1  =                 6444 / Number of characters                           VOTMETA =                    T / Table metadata in VOTable format               EXTEND  =                    T / There are standard extensions                  COMMENT                                                                         COMMENT The data in this primary HDU consists of bytes which                    COMMENT comprise a VOTABLE document.                                            COMMENT The VOTable describes the metadata of the table contained               COMMENT in the following BINTABLE extension.                                    COMMENT Such a BINTABLE extension can be used on its own as a perfectly         COMMENT good table, but the information from this HDU may provide some          COMMENT useful additional metadata.                                             COMMENT There is one following BINTABLE.                                        NTABLE  =                    1 / Number of following BINTABLE HDUs              END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <?xml version='1.0' encoding='UTF-8'?>
+<VOTABLE version='1.1'>
+<!--
+ !  VOTable written by uk.ac.starlink.votable.FitsPlusTableWriter
+ !  Describes BINTABLE extensions in following HDUs
+ !-->
+<RESOURCE>
+<TABLE name="Joined" nrows="10">
+<PARAM arraysize="11" datatype="char" name="COMMENTS" value="ID   Pub_ID"/>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="85" datatype="char" name="Join Type" value="1 or 2 (An output row for each row represented in either or both of the input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="14" datatype="char" name="First input table" value="1: mega31.fits"/>
+<PARAM arraysize="17" datatype="char" name="Second input table" value="2: irac1_mjy.fits"/>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="85" datatype="char" name="Join Type" value="1 or 2 (An output row for each row represented in either or both of the input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="First input table" value="8: match(1,2)"/>
+<PARAM arraysize="17" datatype="char" name="Second input table" value="3: irac2_mjy.fits"/>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="85" datatype="char" name="Join Type" value="1 or 2 (An output row for each row represented in either or both of the input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="First input table" value="9: match(8,3)"/>
+<PARAM arraysize="17" datatype="char" name="Second input table" value="5: irac3_mjy.fits"/>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="85" datatype="char" name="Join Type" value="1 or 2 (An output row for each row represented in either or both of the input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="14" datatype="char" name="First input table" value="10: match(9,5)"/>
+<PARAM arraysize="17" datatype="char" name="Second input table" value="4: irac4_mjy.fits"/>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="85" datatype="char" name="Join Type" value="1 or 2 (An output row for each row represented in either or both of the input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="15" datatype="char" name="First input table" value="11: match(10,4)"/>
+<PARAM arraysize="18" datatype="char" name="Second input table" value="6: mips24_mjy.fits"/>
+<FIELD arraysize="8" datatype="char" name="Pub_ID"/>
+<FIELD datatype="float" name="RADEG">
+<DESCRIPTION>($25)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="DECDEG">
+<DESCRIPTION>($26)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="12plogOH"/>
+<FIELD datatype="float" name="PAH5.7eqw" unit="um"/>
+<FIELD datatype="float" name="PAH6.2eqw" unit="um"/>
+<FIELD datatype="float" name="PAH8.3eqw" unit="um"/>
+<FIELD datatype="float" name="PAH8.6eqw" unit="um"/>
+<FIELD datatype="float" name="PAH10.7eqw" unit="um"/>
+<FIELD datatype="float" name="PAH12.0eqw" unit="um"/>
+<FIELD datatype="float" name="PAH12.69eqw" unit="um"/>
+<FIELD datatype="float" name="PAH14.0eqw" unit="um"/>
+<FIELD datatype="double" name="PAH12.7eqw" unit="um"/>
+<FIELD datatype="double" name="PAH11.3eqw" unit="um"/>
+<FIELD datatype="double" name="PAH7.7eqw" unit="um"/>
+<FIELD datatype="double" name="PAH17.0eqw" unit="um"/>
+<FIELD datatype="float" name="SIV" unit="m-2 W"/>
+<FIELD datatype="float" name="NeII" unit="m-2 W"/>
+<FIELD datatype="float" name="NeIII" unit="m-2 W"/>
+<FIELD datatype="float" name="SIII" unit="m-2 W"/>
+<FIELD datatype="double" name="IRAC1(mJy)"/>
+<FIELD datatype="double" name="IRAC2(mJy)"/>
+<FIELD datatype="double" name="IRAC3(mJy)"/>
+<FIELD datatype="double" name="IRAC4(mJy)"/>
+<FIELD datatype="double" name="MIPS24(mJy)"/>
+<!-- Dummy VOTable - no DATA element -->
+</TABLE>
+</RESOURCE>
+</VOTABLE>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional table                            NAXIS1  =                  144 / width of table in bytes                        NAXIS2  =                   10 / number of rows in table                        PCOUNT  =                    0 / size of special data area                      GCOUNT  =                    1 / one data group                                 TFIELDS =                   25 / number of columns                              EXTNAME = 'Joined  '           / table name                                     TTYPE1  = 'Pub_ID  '           / label for column 1                             TFORM1  = '8A      '           / format for column 1                            TTYPE2  = 'RADEG   '           / label for column 2                             TFORM2  = 'E       '           / format for column 2                            TCOMM2  = '($25)   '                                                            TTYPE3  = 'DECDEG  '           / label for column 3                             TFORM3  = 'E       '           / format for column 3                            TCOMM3  = '($26)   '                                                            TTYPE4  = '12plogOH'           / label for column 4                             TFORM4  = 'D       '           / format for column 4                            TTYPE5  = 'PAH5.7eqw'          / label for column 5                             TFORM5  = 'E       '           / format for column 5                            TUNIT5  = 'um      '           / units for column 5                             TTYPE6  = 'PAH6.2eqw'          / label for column 6                             TFORM6  = 'E       '           / format for column 6                            TUNIT6  = 'um      '           / units for column 6                             TTYPE7  = 'PAH8.3eqw'          / label for column 7                             TFORM7  = 'E       '           / format for column 7                            TUNIT7  = 'um      '           / units for column 7                             TTYPE8  = 'PAH8.6eqw'          / label for column 8                             TFORM8  = 'E       '           / format for column 8                            TUNIT8  = 'um      '           / units for column 8                             TTYPE9  = 'PAH10.7eqw'         / label for column 9                             TFORM9  = 'E       '           / format for column 9                            TUNIT9  = 'um      '           / units for column 9                             TTYPE10 = 'PAH12.0eqw'         / label for column 10                            TFORM10 = 'E       '           / format for column 10                           TUNIT10 = 'um      '           / units for column 10                            TTYPE11 = 'PAH12.69eqw'        / label for column 11                            TFORM11 = 'E       '           / format for column 11                           TUNIT11 = 'um      '           / units for column 11                            TTYPE12 = 'PAH14.0eqw'         / label for column 12                            TFORM12 = 'E       '           / format for column 12                           TUNIT12 = 'um      '           / units for column 12                            TTYPE13 = 'PAH12.7eqw'         / label for column 13                            TFORM13 = 'D       '           / format for column 13                           TUNIT13 = 'um      '           / units for column 13                            TTYPE14 = 'PAH11.3eqw'         / label for column 14                            TFORM14 = 'D       '           / format for column 14                           TUNIT14 = 'um      '           / units for column 14                            TTYPE15 = 'PAH7.7eqw'          / label for column 15                            TFORM15 = 'D       '           / format for column 15                           TUNIT15 = 'um      '           / units for column 15                            TTYPE16 = 'PAH17.0eqw'         / label for column 16                            TFORM16 = 'D       '           / format for column 16                           TUNIT16 = 'um      '           / units for column 16                            TTYPE17 = 'SIV     '           / label for column 17                            TFORM17 = 'E       '           / format for column 17                           TUNIT17 = 'm-2 W   '           / units for column 17                            TTYPE18 = 'NeII    '           / label for column 18                            TFORM18 = 'E       '           / format for column 18                           TUNIT18 = 'm-2 W   '           / units for column 18                            TTYPE19 = 'NeIII   '           / label for column 19                            TFORM19 = 'E       '           / format for column 19                           TUNIT19 = 'm-2 W   '           / units for column 19                            TTYPE20 = 'SIII    '           / label for column 20                            TFORM20 = 'E       '           / format for column 20                           TUNIT20 = 'm-2 W   '           / units for column 20                            TTYPE21 = 'IRAC1(mJy)'         / label for column 21                            TFORM21 = 'D       '           / format for column 21                           TTYPE22 = 'IRAC2(mJy)'         / label for column 22                            TFORM22 = 'D       '           / format for column 22                           TTYPE23 = 'IRAC3(mJy)'         / label for column 23                            TFORM23 = 'D       '           / format for column 23                           TTYPE24 = 'IRAC4(mJy)'         / label for column 24                            TFORM24 = 'D       '           / format for column 24                           TTYPE25 = 'MIPS24(mJy)'        / label for column 25                            TFORM25 = 'D       '           / format for column 25                           DATE-HDU= '2015-08-25T21:57:44' / Date of HDU creation (UTC)                    STILVERS= '3.0-1   '           / Version of STIL software                       STILCLAS= 'uk.ac.starlink.votable.FitsPlusTableWriter' / Author class in STIL soEND                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             Region 9A$  B"l-@!∏QÎÖ∏¿  CmuAxÒ@˛<˛?Ã†@'~¿  ¿  @¶@   @L–   @a¸÷p   @Ók   $Ÿ⁄f%u$J±›$x>ﬂ>˙	ûwµ—>Ì§^E>˙≠{«w”0>ˇ¢$:i7>Ù.mµRegion 1A&ˇB"‡@"ffffff>≈—Ñ?îÉ>ŸÒ?>Ú+ê=πb–>⁄)‹¿  ¿  ?ËZ,`   ?˜,¿   @CÔ(   ?Ù#äF   #∫Ù#µ>∞#âp#Ob>Ó°≥0G>‚´°
+Åãí>ÛÒÓâÀ?
+´∑dÍ>˝j=»@Region 7A#ôBB#Óü@ ÃÃÃÃÃÕ>¢¡›?]mG>„—∏?1[»=˝MÉ>¯$Y¿  ¿  ?Ò;5‡   ?˝‹`   @”s(   @¡à⁄   #>É$!HQ#;∑#ˆΩ•?™˜j¬Ü?Ω[™vË?K@ä˜∑>˚NÄ˜:>Ê[Ω]m¯Region 3A"}»B$n@!≥33333@à‘ A.E@5∑É?nd¿¿  ?1
+¿  ¿  ?˘©ú@   @ ê   @2ã   @^áƒ   $ÍüF$ Ú#µ‰Û#åàä>Î›zÅÅ>„• lÖ>˘80ü Ê≠?¡nK•«>˘•dX*r§Region 4A%0–B$zA@!«Æz·H>èß6?Çå∆>¯#?D≤Ç=ÖÙ^>ùäb¿  ¿  ?Í5ë¿   ?˙≥∞–   @P√∞   ?˙oßË   #è°#ø’ò#M©!"•Í3?  ≤⁄¿Œ>Úò
+ì∆M>ˇ‡ìµÂZ? uAaƒ¯N>ÛÎ∆Fv‚DRegion 8A)p§B$|j@!·GÆz·¿  ¿  =≥Qt=≈ÂÛ=≤É·¿  ¿  ¿          ?”Ñ@   ?∏π¿   ?„Õ…Ñ   #ûB∂#*E
+$<E¬#“Xˆ>úCï*>Â=£ªEœ>˜„¿5πyÙ?´jJº=™?Œl-…"IRegion 5A.£TB%E&@!‹(ı¬è\¿  =˝º1=’π≥>J2∏=E,≈>/3Ω¿  ¿  ?ﬂÚs¿   ?Ëñ∫    ?„{DÄ   ?¯‡Eå   #™S#à∏
+#!∑‡#'Á?É!êQV◊>ˇ&xÚr>¸ÖÓc°à>ˇ'Ì˘X>ÌØ9∑∑¡èBulge   A*UUB%fØ@!ÃÃÃÃÃÕ¿  ?î >?\é>öçº<È
+>^›j=T•¿  ?ﬂ\¿   ?È'   @7[ê   ?Ú}‚ÚÄ  $ˆÏ÷$ñGs#Ê[# Óì?0œæò:?h∫b ê?@·Cﬁâ?ØZEG›V?c¬±8HRegion 6A.aüB%åÕ@!u¬è\(ˆ¿  =’ƒs=Õq{>∆6=T(¸>T·¿  ¿  ?⁄¨ìÄ   ?Ë±ª0   ?‚á ∏   ?˚y   #yH#_D⁄#∞3#≠é¥?mﬂ)Bp?°ÃﬂHÅ.?Ü¸Nç«ˇ>˝§ˇ'^4>Ìíé‡˚3Region 2A5Ö˘B&ó£@"#◊
+=p§>åÙU?Ç9>°_|?1˙a=ç_œ>µ[Õ=x√{¿  ?Î`   ?˘RL0   @≤¯   ?ıD2   #ß5¢#«Á∏#<¿¨"a>ƒ>Ùúˇ[Å”J>Êß∞Ô»b>˙>˚D!	?	Ü&›øﬂ>¯óÑ:Ï€‰                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

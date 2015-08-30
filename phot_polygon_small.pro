@@ -121,13 +121,13 @@ phot_per_kpc_sq=phot/area_kpc_sq
 pub_id=['Bulge','Region 1','Region 2','Region 3','Region 4','Region 5','Region 6','Region 7','Region 8','Region 9']
 RAdeg=[10.64583333333333d,10.376708333333333d,11.345208333333332d,10.155708333333331d,10.324416666666664d,10.914874999999999d,10.898833333333332d,10.224916666666665d,10.589999999999998d,10.249999999999998d]
 Decdeg=[41.35027777777778d,40.718833333333336d,41.64808333333333d,41.02483333333333d,41.11938888888889d,41.317527777777784d,41.3875d,40.98302777777778d,41.1215d,40.60563888888889d]
-ID=['Bulge','irc1','irc2','irc3','irc4','irac5','irc6','irc7','irc8','isocvf']
+;ID=['Bulge','irc1','irc2','irc3','irc4','irac5','irc6','irc7','irc8','isocvf']
 
-   data = {RAdeg:0.0, Decdeg:0.0,metallicity_per_pc_sq:0.0d}
+   data = {RAdeg:0.0, Decdeg:0.0,IRAC1mJy:0.0d}
    datas = replicate(data, n_elements(phot))
    datas.RAdeg = RAdeg
    datas.Decdeg = Decdeg
-   datas.metallicity_per_pc_sq=phot_per_pc_sq
+   datas.IRAC1mJy=phot
    
    mwrfits,datas, out+'.fits', /create
 
